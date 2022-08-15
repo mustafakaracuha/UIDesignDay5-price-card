@@ -20,4 +20,4 @@
 
 ### Screenshot
 
-<img align="center"  width="800" width="800"  src="https://github.com/mustafakaracuha/UIDesignDay3-subscription-card/blob/master/src/assets/img/app.gif" alt="muskaracuha" />
+<img align="center"  width="800" width="800"  src="https://github.com/mustafakaracuha/UIDesignDay5-price-card/blob/master/src/assets/img/screenshot.gif" alt="muskaracuha" />
