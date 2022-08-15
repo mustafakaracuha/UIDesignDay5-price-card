@@ -7,11 +7,11 @@
 
 ### Live
 
-🔗 https://ui-design-day-pricecard.vercel.app/
+🔗 https://ui-design-day5-pricecard.vercel.app/
 
 ### Installation
 
-🔗 git clone https://github.com/mustafakaracuha/UIDesignDay3-price-card
+🔗 git clone https://github.com/mustafakaracuha/UIDesignDay5-price-card
 <br/>
 <br/>
 ⚡️  npm install <br/>
