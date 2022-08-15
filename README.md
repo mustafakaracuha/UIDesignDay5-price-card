@@ -11,7 +11,7 @@
 
 ### Installation
 
-🔗 git clone https://github.com/mustafakaracuha/UIDesignDay3-price-card
+🔗 git clone https://github.com/mustafakaracuha/UIDesignDay5-price-card
 <br/>
 <br/>
 ⚡️  npm install <br/>
