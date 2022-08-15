@@ -1,0 +1,308 @@
+@font-face {
+  font-family: muli;
+  src: url(./assets/fonts/Muli-SemiBold.woff);
+}
+@font-face {
+  font-family: muliLight;
+  src: url(./assets/fonts/Muli-Light.woff);
+}
+
+@font-face {
+  font-family: muliBold;
+  src: url(./assets/fonts/Muli-Bold.woff);
+}
+
+@font-face {
+  font-family: createRou;
+  src: url(./assets/fonts/CreteRound-Regular.ttf);
+}
+@font-face {
+  font-family: day;
+  src: url(./assets/fonts/coolvetica\ rg.otf);
+}
+
+@font-face {
+  font-family: mk;
+  src: url(./assets/fonts/Bilal-d99MX.otf);
+}
+
+.App {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #f2f4fb;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.box {
+  width: 490px;
+  height: 550px;
+  background: rgb(233, 232, 255);
+  background: linear-gradient(
+    133deg,
+    rgba(233, 232, 255, 1) 18%,
+    rgba(227, 240, 253, 1) 100%
+  );
+  margin-bottom: 200px;
+  border-radius: 35px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.main {
+  width: 400px;
+  height: 550px;
+  background: white;
+  margin-top: 90px;
+  border-radius: 25px;
+  box-shadow: rgb(214, 228, 242) 0px 7px 25px 0px;
+  overflow: hidden;
+  opacity: 0.8;
+  transition: 0.3s;
+}
+
+.main:hover {
+transform: scale(1.05);
+opacity:1;
+}
+
+.head {
+  width: 100%;
+  height: 100px;
+  align-items: start !important;
+  justify-content: normal !important;
+  display: inline-block !important;
+  padding-left: 50px;
+  padding-top: 30px;
+}
+
+.head h1 {
+  font-family: createRou !important;
+  font-size: 40px;
+  font-weight: 600;
+  margin: 0 !important;
+  margin-bottom: 15px !important;
+}
+
+.head p {
+  font-family: muli !important;
+  font-size: 15px;
+  color: rgb(107, 107, 107);
+  margin-top: 0 !important;
+}
+
+.buy {
+  width: 100%;
+  height: 90px;
+  text-align: center;
+  margin-top: 0px;
+}
+
+.buy p {
+  margin-top: 13px;
+  font-size: 14px;
+  text-align: start;
+  margin-left: 50px;
+  font-family: muli;
+}
+.buy p span {
+  font-family: muli;
+  color: #626262;
+}
+
+.buy button {
+  width: 300px;
+  height: 60px;
+  background: rgb(96, 244, 147);
+  background: linear-gradient(
+    133deg,
+    rgba(96, 244, 147, 1) 18%,
+    rgba(119, 244, 236, 1) 100%
+  );
+  border: none;
+  outline: none;
+  border-radius: 7px;
+  font-family: muliBold;
+  font-size: 14px;
+  font-weight: 600 !important;
+  color: #3e3e3e;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.buy button:hover {
+  background: linear-gradient(
+    133deg,
+    rgba(119, 244, 236, 1) 18%,
+    rgba(96, 244, 147, 1) 100%
+  );
+}
+
+.buy button:active {
+  transform: scale(1.05);
+}
+
+.check {
+  width: 100%;
+  padding-left: 50px;
+  padding-top: 10px;
+}
+
+.css-j204z7-MuiFormControlLabel-root .MuiFormControlLabel-label {
+  font-size: 14px !important;
+  font-family: muli;
+}
+
+.zipCode {
+  width: 75%;
+  height: 100px;
+  background: rebeccapurple;
+  margin-left: 50px;
+  border-radius: 7px;
+  background: #f2f5ff;
+  margin-top: 10px;
+  padding-left: 10px;
+  padding-top: 2px;
+  padding-bottom: 5px;
+  position: relative;
+}
+
+.zipCode p {
+  font-size: 14px;
+  font-family: muliBold;
+}
+
+.zipCode span {
+  position: absolute;
+  left: 25px;
+  top: 60px;
+}
+
+.zipCode input {
+  width: 120px;
+  height: 46px;
+  background: transparent;
+  border: none;
+  outline: none;
+  padding-left: 40px;
+  padding-right: 20px;
+  margin-right: 10px;
+  border-radius: 10px;
+  border: 1px solid rgb(160, 160, 160);
+  font-family: muliBold;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.zipCode input:focus {
+  border: 1px solid rgb(10, 255, 210);
+}
+
+.zipCode input::placeholder {
+  color: rgb(82, 79, 79);
+}
+
+.zipCode button {
+  width: 95px;
+  height: 50px;
+  border: none;
+  outline: none;
+  background: white;
+  border-radius: 8px;
+  font-family: muliBold;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.zipCode button:hover {
+  background: rgb(233, 233, 233);
+}
+
+.pickUp {
+  width: 310px;
+  height: 55px;
+  background: rgb(158, 194, 255);
+  background: linear-gradient(
+    133deg,
+    rgba(158, 194, 255, 1) 18%,
+    rgba(179, 168, 255, 1) 100%
+  );
+  border: none;
+  outline: none;
+  border-radius: 7px;
+  font-family: muliBold;
+  margin-left: 50px;
+  margin-top: 20px;
+  font-size: 14px;
+  font-weight: 600 !important;
+  color: #3e3e3e;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.pickUp:hover {
+  background: linear-gradient(
+    133deg,
+    rgba(179, 168, 255, 1) 18%,
+    rgba(158, 194, 255, 1) 100%
+  );
+}
+
+.pickUp:active {
+  transform: scale(1.05);
+}
+
+.designBy {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  color: #b7b7d6;
+}
+
+.designBy p {
+  width: 100% !important;
+  font-family: mk;
+  font-size: 30px !important;
+}
+
+.designBy h1 {
+  font-family: muli;
+  font-size: 20px !important;
+}
+
+.day {
+  font-family: day !important;
+}
+
+@media screen and (max-width: 992px) {
+  .box {
+    background: none;
+  }
+
+  .main {
+  background: none;
+  box-shadow: none;
+  }
+  .designBy p {
+    width: 100% !important;
+    font-family: mk;
+    font-size: 20px !important;
+  }
+}
+
+@media screen and (max-width: 480px) {
+}
