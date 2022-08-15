@@ -71,8 +71,8 @@ body {
 }
 
 .main:hover {
-transform: scale(1.05);
-opacity:1;
+  transform: scale(1.05);
+  opacity: 1;
 }
 
 .head {
@@ -294,15 +294,30 @@ opacity:1;
   }
 
   .main {
-  background: none;
-  box-shadow: none;
+    width: 400px;
+    height: 550px;
+    background: transparent;
+    margin-top: 90px;
+    border-radius: 25px;
+    box-shadow: none;
+    overflow: hidden;
+    opacity: 1 !important;
+    transition: 0.3s;
   }
+  
+  .main:hover {
+    transform: scale(1);
+    opacity: 1;
+  }
+
+
   .designBy p {
     width: 100% !important;
     font-family: mk;
-    font-size: 20px !important;
+    font-size: 25px !important;
   }
 }
 
 @media screen and (max-width: 480px) {
+
 }
